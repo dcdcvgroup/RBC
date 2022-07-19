@@ -1,5 +1,5 @@
 # RBC
-[RBC: Rectifying the Biased Context in Continual Semantic Segmentation](https://arxiv.org/abs/2203.08404)
+[RBC: Rectifying the Biased Context in Continual Semantic Segmentation](https://arxiv.org/abs/2203.08404) ECCV2022.
 
 ## Requirements
 You need to install the following libraries:
