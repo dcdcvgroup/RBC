@@ -23,6 +23,8 @@ pip3 install -v --no-cache-dir --global-option="--cpp_ext" --global-option="--cu
 
 Note that while the code should be runnable without mixed precision (apex), some have reported lower perfs without it. So try with it!
 
+The default is to use a pretraining for the backbone used, that is searched in the pretrained folder of the project. We used the pretrained model released by the authors of In-place ABN (as said in the paper), that can be found here: [link](https://github.com/mapillary/inplace_abn#training-on-imagenet-1k). You can also download the pretrained model by running the script *download_resnet101_iabn_sync.sh* from [link](https://github.com/arthurdouillard/CVPR2021_PLOP/releases/download/v1.0/resnet101_iabn_sync.pth.tar) (uploaded by Arthur Douillard).
+
 ## How to perform training
 We provide some scripts under the directory `scripts/voc` to reproduce the results in our paper (included tasks are 15-5, 15-1, 19-1 (VOC)).
 
